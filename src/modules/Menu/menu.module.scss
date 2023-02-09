@@ -1,0 +1,32 @@
+.wrapper {
+    padding: 25px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.item {
+    &:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+
+.link {
+    display: block;
+    padding: 10px 15px;
+    background-color: rgb(248, 144, 126);
+    color: white;
+    text-decoration: none;
+    font: 16px sans-serif; 
+
+    &.active {
+        background-color: tomato;
+    }
+}
+
