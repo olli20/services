@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkservices=self.webpackChunkservices||[]).push([[278],{278:function(e,s,c){c.r(s);var n=c(184);s.default=function(){return(0,n.jsx)("div",{className:"container",children:(0,n.jsx)("h2",{children:"Book list"})})}}}]);
+//# sourceMappingURL=278.d1883a11.chunk.js.map
